@@ -3,12 +3,15 @@
 public class Principal {
     public static void main(String[] args)
     {
-        EntradaSaida entradaSaida = new EntradaSaida();
+        //EntradaSaida entradaSaida = new EntradaSaida();
         Carro carro = new Carro();
+        ModeloCarro modeloCarro = new ModeloCarro();
+        AnoDoCarro anoDoCarro = new AnoDoCarro();
+        CorCarro corCarro = new CorCarro();
 
-        String modelo = entradaSaida.solicitarModelo();
-        String cor = entradaSaida.solicitaCor();
-        int ano = entradaSaida.solicitarAno();
+        String modelo = modeloCarro.solicitarModelo();
+        String cor = corCarro.solicitaCor();
+        int ano = anoDoCarro.solicitarAno();
 
         carro.setModelo(modelo);
         carro.setAnoDoVeiculo(ano);
