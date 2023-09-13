@@ -1,8 +1,16 @@
 import javax.swing.*;
 
-public class CorCarro {
-    public static String solicitaCor()
-    {
-        return JOptionPane.showInputDialog("Informe a cor do veículo: ");
+public class CorCarro{
+
+    private String corDoVeiculo;
+
+    public String getCorDoVeiculo() {
+        return corDoVeiculo;
     }
+
+    public void setCorDoVeiculo(String corDoVeiculo) {
+        this.corDoVeiculo = corDoVeiculo;
+    }
+
+
 }

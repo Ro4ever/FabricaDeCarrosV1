@@ -1,36 +1,14 @@
-public class Carro {
+public class Carro implements IContrato{
 
-    private String modelo;
-    private String corDoVeiculo;
-    private int anoDoVeiculo;
 
-    public String getModelo()
-    {
-        return modelo;
+    public void setCor(String corDoVeiculo) {
+
+    }
+    public void setModelo(String modelo) {
+
+    }
+    public void setAno(int ano) {
+
     }
 
-    public void setModelo(String modelo)
-    {
-        this.modelo = modelo;
-    }
-
-    public String getCorDoVeiculo()
-    {
-        return corDoVeiculo;
-    }
-
-    public void setCorDoVeiculo(String corDoVeiculo)
-    {
-        this.corDoVeiculo = corDoVeiculo;
-    }
-
-    public int getAnoDoVeiculo()
-    {
-        return anoDoVeiculo;
-    }
-
-    public void setAnoDoVeiculo(int anoDoVeiculo)
-    {
-        this.anoDoVeiculo = anoDoVeiculo;
-    }
 }
